@@ -12,7 +12,7 @@ entry_points:
       training_samples: {type: int}
       validation_samples: {type: int}
       randomize_images: {type: bool}
-    command: "ls"
+    command: "cat load_data.py"
     #command: "python train.py \
     #  --batch-size {batch_size} \
     #  --epochs {epochs} \
